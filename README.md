@@ -1,8 +1,6 @@
 # NishisukeArray
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/nishisuke_array`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Ruby array extension, like NumPy of python
 
 ## Installation
 
@@ -22,7 +20,15 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+class Hoge
+  using NishisukeArray
+
+  p [1, 2, 3].cumsum #=> [1, 3, 6]
+end
+
+### extension methods
+
+- cumsum, cumsum!
 
 ## Development
 
