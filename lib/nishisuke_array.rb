@@ -1,5 +1,6 @@
 require "nishisuke_array/version"
+require 'nishisuke_array/cumsum'
 
 module NishisukeArray
-  # Your code goes here...
+  include Cumsum
 end
