@@ -20,11 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
+```
 class Hoge
   using NishisukeArray
 
   p [1, 2, 3].cumsum #=> [1, 3, 6]
 end
+```
 
 ### extension methods
 
